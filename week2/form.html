@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="form_style.css">
+	<title>Week2_form</title>
+</head>
+<body>
+	<header>
+		<h1 class="title">MY PIZZARIAS-PIZZA ON DEMAND </h1>
+		<p class="slogan"><strong>Build your coustom pizza and well deliver in an hour</strong> </p>
+	</header>
+	
+	<form class="subform_1">
+		<fieldset class="infos">
+	
+			<legend class="legend1">Client's Information</legend>
+			<aside>
+				<img src="./images/user.png" alt="userimage">
+			</aside>
+			
+			<label for="name">Name</label> <br><input type="text" name="customer name">
+			<br>
+			<label for="Tel">Tel</label> <br><input type="text" name="customer number">
+			<br>
+			<label for="Adress">Adress</label> <br><input type="text" name="customer adress">
+			<br>
+			<label for="delivery">Delivery Instructions:</label><br>
+			 <textarea name="instructions" 
+			rows="4" cols="60" maxlength="400" placeholder="your preference here "></textarea>
+			
+		</fieldset>
+	
+			<h1 class="heading">DESIGN YOUR DREAM PIZZA </h1>
+		
+		 <fieldset class="design_pizza">
+			<legend class="pizza">Pizza flavours</legend>
+
+				
+				  <fieldset class="choose">
+					<legend class="typeP"><strong>Crust</strong>-<em>Choose one</em></legend>
+					 <input type="radio" name="classic white" value="classic">
+					 <label for="classic">classic white</label><br>
+					 <input type="radio" name="multigrain" value="grains">
+					 <label for="classic">multigrains</label><br>
+					 <input type="radio" name="cheese-stuff" value="cheese-stuff">
+					 <label for="classic">cheese-stuff crust</label><br>
+					 <input type="radio" name="Gluten-free" value="Gluten-free">
+					 <label for="classic">Gluten-free</label>
+				   </fieldset>
+				
+
+				
+					<fieldset class="recipies">
+					<legend class="typeP"><strong>Toppings</strong>-<em>Choose as many as you wish</em></legend>
+					 <input type="checkbox" name="redsauce" value="redsauce">
+					 <label for="classic">Red-sauce"</label><br>
+					 <input type="checkbox" name="whitesauce" value="whitesauce">
+					 <label for="classic">white-sauce</label><br>
+					 <input type="checkbox" name="Mozarellacheese" value="Mozarellacheese">
+					 <label for="classic">Mozarella cheese</label><br>
+					 <input type="checkbox" name="Pepperoni" value="Pepperoni">
+					 <label for="classic">Pepperoni</label><br>
+					 <input type="checkbox" name="Peppers" value="Peppers">
+					 <label for="classic">Peppers</label>
+					 </fieldset>
+				
+
+					<fieldset>
+					<legend><strong>Number of Pizzas</strong></legend>
+					<label for="number of pizza">How many pizza are you odering for </label>
+					<input type="number" name="amount of pizza" > 
+					</fieldset>
+				
+			</fieldset>
+
+	</form>
+
+	</form>
+
+	<div class="button">
+		<button>
+			Submit_Order
+		</button>
+	</div>
+</body>
+</html>
