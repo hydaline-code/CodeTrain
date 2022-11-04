@@ -1,0 +1,118 @@
+body{
+	margin: 20px;
+	
+}
+header{
+	background-image: url(./images/pizza.png);
+	height: 150px;
+}
+.title{
+	padding: 3px;
+}
+.slogan{
+text-align: center; 
+top: 5px;
+}
+h1{
+	text-align: center;
+}
+input[type=text]{
+  width: 70%;
+  padding: 9px 20px;
+  margin: 5px 0;
+  border: 3px solid #cccf;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+textarea  {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  text-align: center;
+
+}
+
+
+label{
+	color: rgb(233,100,215);
+	font-size: 20px;
+	font-weight: bold;
+}
+.infos{
+	width: 75%;
+	margin-left: 125px;
+	align-content: center;
+	background:lightgray;
+	padding-bottom: 4px;
+
+}
+aside{
+	float: right;
+	top: 20px;
+}
+aside img{
+	bottom: 30px;
+}
+.legend1{
+	font-style: italic;
+	font-size: 22px;
+	font-family: Veranda;
+	font-weight: bold;
+	background: white;
+
+}
+.subform_1{
+	background-color: yellow;
+	padding: 15px;
+}
+.design_pizza{
+	width: 75%;
+	margin-left: 125px;
+	align-content: center;
+	background:lightgray;
+	border-color: red;
+	margin-top: 2px;
+
+}
+.pizza{
+	font-style: italic;
+	font-size: 22px;
+	font-family: Veranda;
+	font-weight: bold;
+	background: white;
+	padding-bottom: 3px;
+
+
+}
+.typeP, strong{
+	font-style: italic;
+	font-size: 20px;
+	font-family: Veranda;
+	font-weight: bold;
+	background: white;
+
+}
+em{
+	color: gray;
+	font-weight: bold;
+}
+.choose,.recipies{
+	background: lightyellow;
+	margin: 3px;
+}
+.button{
+	text-align: center;
+	padding: 5px;
+}
+.heading{
+	margin-bottom: 4px;
+	margin-top: 5px;
+
+}
