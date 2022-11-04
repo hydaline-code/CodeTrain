@@ -9,15 +9,18 @@
 <body>
 	<header>
 		<h1 class="title">MY PIZZARIAS-PIZZA ON DEMAND </h1>
-		<p class="slogan"><strong>Build your coustom pizza and well deliver in an hour</strong> </p>
+		
 	</header>
 	
 	<form class="subform_1">
+		<p class="slogan"><strong>Build your coustom pizza and well deliver in an hour</strong> </p>
+
 		<fieldset class="infos">
 	
 			<legend class="legend1">Client's Information</legend>
+			<fieldset class="users">
 			<aside>
-				<img src="./images/user.png" alt="userimage">
+				<img src="./images/user.png" alt="userimage" width="170px">
 			</aside>
 			
 			<label for="name">Name</label> <br><input type="text" name="customer name">
@@ -29,7 +32,7 @@
 			<label for="delivery">Delivery Instructions:</label><br>
 			 <textarea name="instructions" 
 			rows="4" cols="60" maxlength="400" placeholder="your preference here "></textarea>
-			
+			</fieldset>
 		</fieldset>
 	
 			<h1 class="heading">DESIGN YOUR DREAM PIZZA </h1>
@@ -67,7 +70,7 @@
 					 </fieldset>
 				
 
-					<fieldset>
+					<fieldset class="number">
 					<legend><strong>Number of Pizzas</strong></legend>
 					<label for="number of pizza">How many pizza are you odering for </label>
 					<input type="number" name="amount of pizza" > 
